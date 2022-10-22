@@ -42,6 +42,8 @@ input{
     box-shadow: 6px 8px 25px #0b154366;
 }
 
+/* ===== TO REMOVE RANGE ARROWS FROM INPUT ==== */
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   appearance: none;
@@ -51,7 +53,6 @@ input::-webkit-inner-spin-button {
 button{
     margin-bottom: 2rem;
     padding: 0.75rem 1rem;
-    width: 160px;
     border-radius: 0.5rem;
     background: linear-gradient(to top right, #933beb, #647ae7);
     color: white;
@@ -61,6 +62,15 @@ button{
     font-weight: 600;
     letter-spacing: 2px;
     cursor: pointer;
+}
+
+#play{
+    width: 170px;
+}
+
+#play_again{
+    display: none;
+    width: auto;
 }
 
 button:hover{
