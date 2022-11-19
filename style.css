@@ -92,3 +92,44 @@ p#msg{
     font-weight: 600;
     color: brown;
 }
+
+@media screen and (max-width: 700px){
+    
+    .main{
+        margin: 1rem;
+        padding: 2rem;
+    }
+    
+    h1{
+        margin-bottom: 1rem;
+        font-size: 20px;
+    }
+
+    input{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 0.75rem;
+        width: 70px;
+        font-size: 24px;
+    }
+
+    button{
+        margin-bottom: 1rem;
+        padding: 0.5rem 0.75rem;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    #play{
+        width: 100px;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    p#msg{
+        font-size: 22px;
+    }
+}
